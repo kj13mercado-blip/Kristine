@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  body {
+    margin: 0;
+  }
+   
+  .portfolio {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #2d3b36;
+    background: #ffffff;
+  }
+   
+  .header {
+    text-align: center;
+    padding: 90px 24px 70px;
+    background: #f4faf7;
+    border-bottom: 1px solid #e3f1ea;
+  }
+   
+  .photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 6px 18px rgba(56, 122, 96, 0.18);
+    margin-bottom: 20px;
+  }
+   
+  .pname {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: #1f2a26;
+    letter-spacing: -0.01em;
+  }
+   
+  .prole {
+    font-size: 14px;
+    color: #3f9c76;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 10px 0 0;
+    font-weight: 600;
+  }
+     .section {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 24px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+   
+  .section:last-child {
+    border-bottom: none;
+  }
+   
+  .section h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #3f9c76;
+    margin: 0 0 24px;
+  }
+     .contact p {
+    font-size: 15px;
+    margin: 8px 0;
+    line-height: 1.7;
+    color: #4a564f;
+  }
+   
+  .details {
+    font-weight: 600;
+    color: #1f2a26;
+    margin-right: 4px;
+  }
+   
+  .skillslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+   
+  .skill {
+    background: #eaf6f0;
+    color: #2f7a5a;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 999px;
+  }
+   
+  .timeline {
+    border-left: 2px solid #dcf0e6;
+    padding-left: 24px;
+  }
+   
+  .item {
+    position: relative;
+    margin-bottom: 26px;
+  }
+   
+  .item:last-child {
+    margin-bottom: 0;
+  }
+   
+  .item::before {
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3f9c76;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 2px #dcf0e6;
+  }
+   
+  .level {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #3f9c76;
+    margin: 0 0 4px;
+  }
+   
+  .school {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: #1f2a26;
+  }
+   
+  .edetails {
+    font-size: 13.5px;
+    color: #7a8a83;
+    margin: 0;
+  }
+   
+  .project {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+   
+  .card {
+    background: #fbfefc;
+    border: 1px solid #e3f1ea;
+    border-radius: 10px;
+    padding: 20px 22px;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+   
+  .card:hover {
+    box-shadow: 0 6px 16px rgba(56, 122, 96, 0.1);
+    transform: translateY(-2px);
+  }
+   
+  .card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    color: #1f2a26;
+  }
+   
+  .card p {
+    font-size: 14px;
+    color: #6c7a74;
+    line-height: 1.6;
+    margin: 0;
+  }
+   
+  .portfolio > .section:last-child {
+    padding-bottom: 80px;
+  }
+   
